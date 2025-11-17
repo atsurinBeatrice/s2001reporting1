@@ -4,7 +4,10 @@ R431 and belonging to study STD2001 on FSx for Lustre
 1) Create GitHub repository for a new R project as GitHub user(email based)
 - create a non-main branch(e.g. dev branch)
 - apply a rule to main branch which prohibits to push to main directly
+
 2) Create a new R project(reporting activity) in mode of version control and using git
+- [Important!] Input URL as SSH
+
 3) Update "Global Options" to use GIT and create a SSH key for RStudio user(linux user)
 - Create your SSH key
   #e.g. 
@@ -16,11 +19,17 @@ R431 and belonging to study STD2001 on FSx for Lustre
   git config --global user.name "atsurinange"
 
 4) Enable renv on Environments of "Project Options"
+
 5) Update following R initial settings
 - .Renviron     for definition where is global cache
 - .Rprofilel    for definition of custom logger to enable logging high-level info
+
 6) Pull your own branch from Remote Repo(GitHub)
+
 7) Create your own Rscripits under the project folder
+
 8) Install required R packages
+
 9) Take a snapshot of renv.lock
+
 10) Commit and push to your own branch.
